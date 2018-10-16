@@ -1,0 +1,156 @@
+<story path="stories/calculator.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform operation an action</asA>
+  <iWantTo keyword="So that">I can see result two numbers</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="scenario Adddition">
+<examples keyword="Examples:">
+<step>Given a Calculator Class with operation sign &lt;sign&gt;</step>
+<step>When I give the first number &lt;number1&gt;</step>
+<step>And I give the second number &lt;number2&gt;</step>
+<step>Then I should get the result as &lt;result&gt;</step>
+<parameters>
+<names><name>sign</name><name>number1</name><name>number2</name><name>result</name></names>
+<values><value>+</value><value>3</value><value>4</value><value>7</value></values>
+<values><value>+</value><value>5</value><value>4</value><value>9</value></values>
+<values><value>+</value><value>11</value><value>4</value><value>15</value></values>
+<values><value>+</value><value>12345</value><value>4</value><value>12349</value></values>
+<values><value>+</value><value>0</value><value>0</value><value>0</value></values>
+<values><value>+</value><value>1</value><value>1</value><value>2</value></values>
+<values><value>+</value><value>3</value><value>4</value><value>7</value></values>
+<values><value>+</value><value>5</value><value>6</value><value>11</value></values>
+<values><value>+</value><value>1</value><value>1</value><value>2</value></values>
+<values><value>+</value><value>3</value><value>4</value><value>7</value></values>
+<values><value>-</value><value>3</value><value>2</value><value>1</value></values>
+<values><value>-</value><value>23</value><value>2</value><value>21</value></values>
+</parameters>
+
+<example keyword="Example:">{sign=+, number1=3, number2=4, result=7}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>+</parameter></step>
+<step outcome="successful">When I give the first number <parameter>3</parameter></step>
+<step outcome="successful">And I give the second number <parameter>4</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>7</parameter></step>
+
+<example keyword="Example:">{sign=+, number1=5, number2=4, result=9}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>+</parameter></step>
+<step outcome="successful">When I give the first number <parameter>5</parameter></step>
+<step outcome="successful">And I give the second number <parameter>4</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>9</parameter></step>
+
+<example keyword="Example:">{sign=+, number1=11, number2=4, result=15}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>+</parameter></step>
+<step outcome="successful">When I give the first number <parameter>11</parameter></step>
+<step outcome="successful">And I give the second number <parameter>4</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>15</parameter></step>
+
+<example keyword="Example:">{sign=+, number1=12345, number2=4, result=12349}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>+</parameter></step>
+<step outcome="successful">When I give the first number <parameter>12345</parameter></step>
+<step outcome="successful">And I give the second number <parameter>4</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>12349</parameter></step>
+
+<example keyword="Example:">{sign=+, number1=0, number2=0, result=0}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>+</parameter></step>
+<step outcome="successful">When I give the first number <parameter>0</parameter></step>
+<step outcome="successful">And I give the second number <parameter>0</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>0</parameter></step>
+
+<example keyword="Example:">{sign=+, number1=1, number2=1, result=2}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>+</parameter></step>
+<step outcome="successful">When I give the first number <parameter>1</parameter></step>
+<step outcome="successful">And I give the second number <parameter>1</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>2</parameter></step>
+
+<example keyword="Example:">{sign=+, number1=3, number2=4, result=7}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>+</parameter></step>
+<step outcome="successful">When I give the first number <parameter>3</parameter></step>
+<step outcome="successful">And I give the second number <parameter>4</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>7</parameter></step>
+
+<example keyword="Example:">{sign=+, number1=5, number2=6, result=11}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>+</parameter></step>
+<step outcome="successful">When I give the first number <parameter>5</parameter></step>
+<step outcome="successful">And I give the second number <parameter>6</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>11</parameter></step>
+
+<example keyword="Example:">{sign=+, number1=1, number2=1, result=2}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>+</parameter></step>
+<step outcome="successful">When I give the first number <parameter>1</parameter></step>
+<step outcome="successful">And I give the second number <parameter>1</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>2</parameter></step>
+
+<example keyword="Example:">{sign=+, number1=3, number2=4, result=7}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>+</parameter></step>
+<step outcome="successful">When I give the first number <parameter>3</parameter></step>
+<step outcome="successful">And I give the second number <parameter>4</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>7</parameter></step>
+
+<example keyword="Example:">{sign=-, number1=3, number2=2, result=1}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>-</parameter></step>
+<step outcome="successful">When I give the first number <parameter>3</parameter></step>
+<step outcome="successful">And I give the second number <parameter>2</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>1</parameter></step>
+
+<example keyword="Example:">{sign=-, number1=23, number2=2, result=21}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>-</parameter></step>
+<step outcome="successful">When I give the first number <parameter>23</parameter></step>
+<step outcome="successful">And I give the second number <parameter>2</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>21</parameter></step>
+</examples>
+</scenario>
+<scenario keyword="Scenario:" title="scenario Substraction">
+<examples keyword="Examples:">
+<step>Given a Calculator Class with operation sign &lt;sign&gt;</step>
+<step>When I give the first number &lt;number1&gt;</step>
+<step>And I give the second number &lt;number2&gt;</step>
+<step>Then I should get the result as &lt;result&gt;</step>
+<parameters>
+<names><name>sign</name><name>number1</name><name>number2</name><name>result</name></names>
+<values><value>-</value><value>9</value><value>4</value><value>5</value></values>
+</parameters>
+
+<example keyword="Example:">{sign=-, number1=9, number2=4, result=5}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>-</parameter></step>
+<step outcome="successful">When I give the first number <parameter>9</parameter></step>
+<step outcome="successful">And I give the second number <parameter>4</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>5</parameter></step>
+</examples>
+</scenario>
+<scenario keyword="Scenario:" title="scenario Multiplication">
+<examples keyword="Examples:">
+<step>Given a Calculator Class with operation sign &lt;sign&gt;</step>
+<step>When I give the first number &lt;number1&gt;</step>
+<step>And I give the second number &lt;number2&gt;</step>
+<step>Then I should get the result as &lt;result&gt;</step>
+<parameters>
+<names><name>sign</name><name>number1</name><name>number2</name><name>result</name></names>
+<values><value>*</value><value>3</value><value>4</value><value>12</value></values>
+</parameters>
+
+<example keyword="Example:">{sign=*, number1=3, number2=4, result=12}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>*</parameter></step>
+<step outcome="successful">When I give the first number <parameter>3</parameter></step>
+<step outcome="successful">And I give the second number <parameter>4</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>12</parameter></step>
+</examples>
+</scenario>
+<scenario keyword="Scenario:" title="scenario Division">
+<examples keyword="Examples:">
+<step>Given a Calculator Class with operation sign &lt;sign&gt;</step>
+<step>When I give the first number &lt;number1&gt;</step>
+<step>And I give the second number &lt;number2&gt;</step>
+<step>Then I should get the result as &lt;result&gt;</step>
+<parameters>
+<names><name>sign</name><name>number1</name><name>number2</name><name>result</name></names>
+<values><value>/</value><value>12</value><value>4</value><value>3</value></values>
+</parameters>
+
+<example keyword="Example:">{sign=/, number1=12, number2=4, result=3}</example>
+<step outcome="successful">Given a Calculator Class with operation sign <parameter>/</parameter></step>
+<step outcome="successful">When I give the first number <parameter>12</parameter></step>
+<step outcome="successful">And I give the second number <parameter>4</parameter></step>
+<step outcome="successful">Then I should get the result as <parameter>3</parameter></step>
+</examples>
+</scenario>
+</story>

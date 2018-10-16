@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Calculator","scenario Adddition","SUCCESS","2018-04-18T11:19:41.281+02:00[Europe/Belgrade]","0.0","0.66"
+"Calculator","scenario Substraction","SUCCESS","2018-04-18T11:19:41.983+02:00[Europe/Belgrade]","0.0","0.06"
+"Calculator","scenario Multiplication","SUCCESS","2018-04-18T11:19:42.046+02:00[Europe/Belgrade]","0.0","0.03"
+"Calculator","scenario Division","SUCCESS","2018-04-18T11:19:42.077+02:00[Europe/Belgrade]","0.0","0.05"

@@ -1,0 +1,233 @@
+<html>
+<head>
+<title>stories.calculator</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">stories/calculator.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">As a</span> user</div>
+<div class="element asA"><span class="keyword asA">I want to</span> perform operation an action</div>
+<div class="element iWantTo"><span class="keyword iWantTo">So that</span> I can see result two numbers</div>
+</div>
+<div class="scenario">
+<h2>Scenario: scenario Adddition</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a Calculator Class with operation sign &lt;sign&gt;</div>
+<div class="step">When I give the first number &lt;number1&gt;</div>
+<div class="step">And I give the second number &lt;number2&gt;</div>
+<div class="step">Then I should get the result as &lt;result&gt;</div>
+<table>
+<thead>
+<tr>
+<th>sign</th><th>number1</th><th>number2</th><th>result</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>+</td><td>3</td><td>4</td><td>7</td></tr>
+<tr>
+<td>+</td><td>5</td><td>4</td><td>9</td></tr>
+<tr>
+<td>+</td><td>11</td><td>4</td><td>15</td></tr>
+<tr>
+<td>+</td><td>12345</td><td>4</td><td>12349</td></tr>
+<tr>
+<td>+</td><td>0</td><td>0</td><td>0</td></tr>
+<tr>
+<td>+</td><td>1</td><td>1</td><td>2</td></tr>
+<tr>
+<td>+</td><td>3</td><td>4</td><td>7</td></tr>
+<tr>
+<td>+</td><td>5</td><td>6</td><td>11</td></tr>
+<tr>
+<td>+</td><td>1</td><td>1</td><td>2</td></tr>
+<tr>
+<td>+</td><td>3</td><td>4</td><td>7</td></tr>
+<tr>
+<td>-</td><td>3</td><td>2</td><td>1</td></tr>
+<tr>
+<td>-</td><td>23</td><td>2</td><td>21</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {sign=+, number1=3, number2=4, result=7}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">+</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">3</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">4</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">7</span></div>
+
+<h3 class="example">Example: {sign=+, number1=5, number2=4, result=9}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">+</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">5</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">4</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">9</span></div>
+
+<h3 class="example">Example: {sign=+, number1=11, number2=4, result=15}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">+</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">11</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">4</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">15</span></div>
+
+<h3 class="example">Example: {sign=+, number1=12345, number2=4, result=12349}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">+</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">12345</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">4</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">12349</span></div>
+
+<h3 class="example">Example: {sign=+, number1=0, number2=0, result=0}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">+</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">0</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">0</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">0</span></div>
+
+<h3 class="example">Example: {sign=+, number1=1, number2=1, result=2}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">+</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">1</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">1</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">2</span></div>
+
+<h3 class="example">Example: {sign=+, number1=3, number2=4, result=7}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">+</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">3</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">4</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">7</span></div>
+
+<h3 class="example">Example: {sign=+, number1=5, number2=6, result=11}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">+</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">5</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">6</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">11</span></div>
+
+<h3 class="example">Example: {sign=+, number1=1, number2=1, result=2}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">+</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">1</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">1</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">2</span></div>
+
+<h3 class="example">Example: {sign=+, number1=3, number2=4, result=7}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">+</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">3</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">4</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">7</span></div>
+
+<h3 class="example">Example: {sign=-, number1=3, number2=2, result=1}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">-</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">3</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">2</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">1</span></div>
+
+<h3 class="example">Example: {sign=-, number1=23, number2=2, result=21}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">-</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">23</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">2</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">21</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: scenario Substraction</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a Calculator Class with operation sign &lt;sign&gt;</div>
+<div class="step">When I give the first number &lt;number1&gt;</div>
+<div class="step">And I give the second number &lt;number2&gt;</div>
+<div class="step">Then I should get the result as &lt;result&gt;</div>
+<table>
+<thead>
+<tr>
+<th>sign</th><th>number1</th><th>number2</th><th>result</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>-</td><td>9</td><td>4</td><td>5</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {sign=-, number1=9, number2=4, result=5}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">-</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">9</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">4</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">5</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: scenario Multiplication</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a Calculator Class with operation sign &lt;sign&gt;</div>
+<div class="step">When I give the first number &lt;number1&gt;</div>
+<div class="step">And I give the second number &lt;number2&gt;</div>
+<div class="step">Then I should get the result as &lt;result&gt;</div>
+<table>
+<thead>
+<tr>
+<th>sign</th><th>number1</th><th>number2</th><th>result</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>*</td><td>3</td><td>4</td><td>12</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {sign=*, number1=3, number2=4, result=12}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">*</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">3</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">4</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">12</span></div>
+</div>
+</div>
+<div class="scenario">
+<h2>Scenario: scenario Division</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given a Calculator Class with operation sign &lt;sign&gt;</div>
+<div class="step">When I give the first number &lt;number1&gt;</div>
+<div class="step">And I give the second number &lt;number2&gt;</div>
+<div class="step">Then I should get the result as &lt;result&gt;</div>
+<table>
+<thead>
+<tr>
+<th>sign</th><th>number1</th><th>number2</th><th>result</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>/</td><td>12</td><td>4</td><td>3</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {sign=/, number1=12, number2=4, result=3}</h3>
+<div class="step successful">Given a Calculator Class with operation sign <span class="step parameter">/</span></div>
+<div class="step successful">When I give the first number <span class="step parameter">12</span></div>
+<div class="step successful">And I give the second number <span class="step parameter">4</span></div>
+<div class="step successful">Then I should get the result as <span class="step parameter">3</span></div>
+</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
